@@ -1,0 +1,21 @@
+{
+  "name": "transcriptyt",
+  "version": "1.0.0",
+  "description": "YouTube Transcript API client: get any YouTube video's transcript as JSON, text, SRT, or VTT in 150+ languages.",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": ["index.js", "index.d.ts", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "keywords": ["youtube", "transcript", "youtube-transcript", "youtube-transcript-api", "captions", "subtitles", "srt", "vtt", "mcp", "llm"],
+  "homepage": "https://transcript-yt.com",
+  "repository": { "type": "git", "url": "git+https://github.com/rajdeep-automation/transcriptyt.git", "directory": "js" },
+  "bugs": "https://github.com/rajdeep-automation/transcriptyt/issues",
+  "license": "MIT"
+}
