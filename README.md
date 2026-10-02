@@ -1,3 +1,5 @@
+<img src="assets/logo-400.png" width="64" alt="TranscriptYT logo">
+
 # TranscriptYT: YouTube Transcript API clients and examples
 
 Official JavaScript and Python clients for the [TranscriptYT YouTube Transcript API](https://transcript-yt.com), plus examples.
@@ -58,7 +60,7 @@ claude mcp add --transport http transcriptyt https://transcript-yt.com/mcp \
   --header "Authorization: Bearer $TRANSCRIPTYT_API_KEY"
 ```
 
-Then paste a YouTube link into the chat. Setup for other clients: [docs](https://transcript-yt.com/docs#mcp). Also on the [official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=transcriptyt) as `io.github.rajdeep-automation/transcriptyt`.
+Then paste a YouTube link into the chat. Setup for Cline, Cursor, and other clients: [llms-install.md](llms-install.md) and the [docs](https://transcript-yt.com/docs#mcp). Also on the [official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=transcriptyt) as `io.github.rajdeep-automation/transcriptyt`.
 
 ## Examples
 
